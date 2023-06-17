@@ -1,0 +1,9 @@
+
+
+
+
+
+
+
+Spring Data JPA에서는 Entity Manager 를 이용해서 직접 코드를 작성하지 않아도 된다.
+대신에 Data Access Object 역할을 하는 Repository 인터페이스를 설계해서 사용하면 된다.

@@ -1,0 +1,14 @@
+
+
+
+
+
+
+
+
+Entity는 Persistence 목적으로 사용되는 객체이기에 Req나 Resp 값을 전달하는 객체로 사용하면 안됨
+따라서 Entity 에서 Setter method 사용을 지양해야 하고 Constructor를 통해 객체 활용
+Data Transfer Object
+
+오직 데이터만 전달하는 목적으로 View와 Controller 사이에서 로직을 갖지않는 데이터 객체
+Getter Setter 메소드만 가짐
